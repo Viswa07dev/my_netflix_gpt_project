@@ -1,0 +1,68 @@
+# Netflix GPT
+
+- Create React App
+- Configured TailwindCSS
+- Header
+- Routing of App
+- Login Form
+- Sign up Form
+- Form Validation
+- useRef Hook
+- Firebase Setup
+- Deploying our app to productuion
+- Create SignUp User Account
+- Implement Sign In user Api
+- Created Redux Store with userSlice
+- Implemented Sign out
+- Updated Profile
+- BugFix: Sign up user displayName and profile picture update
+- BugFix : if the user is not logged in Redirect/browse to Login page and vice-versa
+- Unsubscribed to the onAuthStateChanged Callback
+- Added hardcoded values to the constants file
+- Register TMDB API & create an app & get access token
+- Get data from TMDB now playing movies list API
+- Custom Hook for Now Playing Movies
+- Create movieSlice
+- Update Store with movies Data
+- Planning for MainContainer & SecondaryContainer
+- Fetch Data for Trailer Video
+- Update Store with Trailer Video Data
+- Embedded the Youtube video and make it autoplay and mute
+- Tailwind Classes to make Main Container look awesome
+- Build Secondary Component
+- Build Movie list
+- Build Movie Card
+- TMDB Image CDN URL
+- Made the Browse page amazing with Tailwind CSS
+- usePopularMovies Custom Hook
+- useTopRatedMovies Custom Hook
+- useUpcomingMovies Custom Hook
+- useTvSeriesList Custom Hook
+- GPT Search Page
+- GPT Search Bar
+- Multi-language Feature in our App
+- Get Open AI Api Key
+- Gpt Search API Call
+- fetched gptMoviesSuggestions from TMDB
+- created gptSlice added data
+- Resused Movie List component to make movie suggestion container
+- Memoization
+- Added .env file
+- Adding .env file to gitignore
+- Made our Site Responsive
+
+# Features
+
+- Login/Signup (if you are not authenticated)
+  - Sign In/Sign Up Form
+  - then Redirect to browse page
+- Browse (only comes after authentication)
+  - Header
+  - Main Movie
+    - Trailer in Background
+    - Title & Description
+    - MovieSuggestions
+      - MovieLists & lot of movies list
+- NetflixGpt
+  - Search Bar
+  - Movie Suggestions
